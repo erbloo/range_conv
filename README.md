@@ -2,6 +2,8 @@
 
 <img src="https://github.com/anonymous0522/RAAN/blob/master/docs/motivation.PNG" width="100%" height="100%">
 
+### The code base of this work is forked from [CenterPoint](https://github.com/tianweiy/CenterPoint).
+
 Distributed Train:
 ~~~
 python -m torch.distributed.launch —nproc_per_node=NUM_OF_GPU tools/train.py PATH_TO_CONFIG —work_dir PATH_TO_WORK_DIR
